@@ -19,10 +19,12 @@
 #define redyellowstate 2
 #define greenyellowstate 3
 
+void App_init();
 void appStart();
 void Normal_mode();
 void ped_mode();
 void clear_interrupt();
-
+void wait_interrupt(uint8_t ts);
+void LED_blink_interrupt(uint8_t LEDport, uint8_t LEDpin, uint8_t delay);
 
 #endif /* APP_H_ */

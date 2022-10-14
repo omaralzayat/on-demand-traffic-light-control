@@ -24,3 +24,9 @@ EN_Interrupt_t En_Ext_INT()
 	return Interrupt_OK;
 }
 
+EN_Interrupt_t interrupt_init(){
+		sei();
+		ISC();
+		En_Ext_INT();
+		return Interrupt_OK;
+}

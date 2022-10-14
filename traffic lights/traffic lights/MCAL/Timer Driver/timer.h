@@ -17,6 +17,7 @@
 
 EN_Timer_t timer_init();
 EN_Timer_t timer_wait(unsigned int ts);
-
+EN_Timer_t timer_reset();
+EN_Timer_t counter_reset();
 
 #endif /* TIMER_H_ */

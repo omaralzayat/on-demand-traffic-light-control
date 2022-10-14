@@ -16,6 +16,7 @@
 EN_Interrupt_t sei(); //Enable general interrupt
 EN_Interrupt_t ISC(); //Choose interrupt sense (rising edge in our case)
 EN_Interrupt_t En_Ext_INT(); //Enable external interrupt pin (INT0)
+EN_Interrupt_t interrupt_init();
 
 void __vector_1(void) __attribute__((signal, used));
 #define EXT_INT_0 __vector_1

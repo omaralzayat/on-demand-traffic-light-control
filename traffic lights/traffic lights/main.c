@@ -8,7 +8,10 @@
 
 int main(void)
 {
-	appStart();
+	App_init();
+	while(1){
+		appStart();
+	}
 }
 
 
