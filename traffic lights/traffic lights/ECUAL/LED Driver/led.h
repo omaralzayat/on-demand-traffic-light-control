@@ -10,6 +10,7 @@
 #define LED_H_
 
 #include "../../MCAL/DIO Driver/dio.h"
+#include "../../MCAL/Timer Driver/timer.h"
 
 #define LED_car portA
 #define LED_ped portB
