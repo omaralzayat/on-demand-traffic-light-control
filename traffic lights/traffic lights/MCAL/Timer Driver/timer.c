@@ -5,7 +5,6 @@
  *  Author: omara
  */ 
 #include "timer.h"
-#include "../DIO Driver/dio.h"
 
 unsigned int overflowCounter = 0;
 
